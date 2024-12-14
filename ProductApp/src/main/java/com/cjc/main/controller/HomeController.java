@@ -10,18 +10,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
-<<<<<<< HEAD
 	@GetMapping("/get-products")
 	public List allProducts()
 	{
 		return new ArrayList<>();
 	}
-=======
+
   @PostMapping("/save-product")
   public String saveProduct()
   {
     return "Product will be save later";
   }
 
->>>>>>> branch 'main' of https://github.com/sanskrutisk/merge-conflict-resolve.git
+
 }
